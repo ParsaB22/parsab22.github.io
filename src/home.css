@@ -1,0 +1,85 @@
+/* extra stuff */
+@font-face {
+    font-family: comicfont;
+    src: url(../public/fonts/animeace3bb_ot/animeace3bb_ot/AnimeAce3BB_Regular.otf);
+}
+@font-face {
+    font-family: boldcomicfont;
+    src: url(../public/fonts/animeace3bb_ot/animeace3bb_ot/AnimeAce3BB_Bold.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: comicfont;
+    /* transition: all 1s ease-out; */
+}
+a{
+    text-decoration: none;
+}
+a:visited, a:active{
+    color:#000;
+}
+img{
+    pointer-events: none;
+    user-select: none;
+}
+p{
+    transition: 250ms font-size;
+}
+
+/* ---------------- */
+
+
+/* background stuff */
+
+span{
+    font-family: boldcomicfont;
+}
+
+/* ======= MASKING ======= */
+#mask-container{
+    -webkit-mask-image: url(../public/images/mouseSpiderIcon.svg);
+    mask-image: url(../public/images/mouseSpiderIcon.svg);
+    mask-repeat: no-repeat;
+    /* mask-size: 50px 50px; does nothing size is manipulated in javascript */
+    /* -webkit-mask-size: 50px 50px; */
+    z-index: 1;
+}
+#active{
+    z-index: 0;
+}
+/* ======================================== */
+
+/* CAN MAYBE BE TURNED INTO TAILWIND */
+body {
+    background-color: black;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#back > * {
+    border: #000, 4px, solid;
+}
+
+.firstLet{
+    font-size: 30px;
+    color: red;
+    text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px;
+    margin-right: 2px;
+}
+
+@media (min-width: 320px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1025px) {
+
+}

@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="stylesheet" href="../../src/navigation.css">
+        <link rel="stylesheet" href="../../src/defaultComicLayout.css">
+        <title>Venom Gains Information</title>
+    </head>
+
+    <body>
+        <nav>
+            <div id="redbar"></div>
+            <div id="whitebar"></div>
+            <div id="navbar">
+                <!-- home -->
+                <a id="home" href="../../index.html">
+                    <!-- <img id="yoo" src="images/homie.svg" alt=""> -->
+                    <svg id="homeimg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 93.0279V69.7193V0.5H78.4587H87.9566L78.4587 14.275L95 30.9L76.776 41.35L87.9566 64.6479L70.4656 60.5372L76.776 78.1952L63.3138 73.9572V93.0279L50.4828 78.1952L38.9138 95.5L32.8138 73.9572L20.8242 88.0836L16.6173 75.723L0 93.0279Z" fill="white" stroke="black" stroke-width="3"/>
+                    </svg>
+                    <h6 id="pb">PB</h6>
+                </a>
+                <!-- links -->
+                <div id="outer">
+                    <!-- start -->
+                    <div id="inner">
+                        <div class="flexable">
+                            <div id="start-of-web">
+                                <!-- large -->
+                                <svg class="large" style="width: 100%;" preserveAspectRatio="none" width="65" height="53" viewBox="0 0 65 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.31 21.5H12.6447L36.5463 1H63.3855L4.30829 51.5H0.309998" fill="white"/>
+                                    <path d="M0.31 21.5H12.6447L36.5463 1H63.3855L4.30829 51.5H0.309998" stroke="black" stroke-width="3"/>
+                                </svg>   
+                                <!-- small -->
+                                
+                                <svg class="small" style="width: 100%;" preserveAspectRatio="none" width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18H6L25.783 1H44.5L6.23047 37.0001H0" fill="white"/>
+                                    <path d="M0 18H6L25.783 1H44.5L6.23047 37.0001H0" stroke="black" stroke-width="2.5"/>
+                                </svg>
+                            </div>
+                            <!-- <img style="width: max-content; height: max-content;" src="images/euphoria2.svg" alt=""> -->
+                            <div class="backweb">
+                                <svg class="back" width="107" height="66" viewBox="0 0 107 66" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.07489 64.5L78.0522 1.5H102.925L28.9478 64.5H4.07489Z" fill="#C2C2C2" stroke="black" stroke-width="3"/>
+                                </svg>  
+                                <a class="pages" href="../projects.html"><span class="tabText">Projects</span></a>
+                            </div>
+                        </div>
+                        <!-- middle -->
+                        <div class="flexable mid-web">
+                            <div class="frontweb">
+                                <svg class="front" width="107" height="66" viewBox="0 0 107 66" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.07489 64.5L78.0522 1.5H102.925L28.9478 64.5H4.07489Z" fill="white" stroke="black" stroke-width="3"/>
+                                </svg>  
+                            </div>             
+                            <div class="backweb">
+                                <svg class="back" width="107" height="66" viewBox="0 0 107 66" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.07489 64.5L78.0522 1.5H102.925L28.9478 64.5H4.07489Z" fill="#C2C2C2" stroke="black" stroke-width="3"/>
+                                </svg>  
+                                <a class="pages" href="../about.html"><span class="tabText">About</span></a>
+                            </div>
+                        </div>
+    
+                        <div class="flexable mid-web">
+                            <div class="frontweb">
+                                <svg class="front" width="107" height="66" viewBox="0 0 107 66" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.07489 64.5L78.0522 1.5H102.925L28.9478 64.5H4.07489Z" fill="white" stroke="black" stroke-width="3"/>
+                                </svg>  
+                            </div>             
+                            <div class="backweb">
+                                <svg class="back" width="107" height="66" viewBox="0 0 107 66" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.07489 64.5L78.0522 1.5H102.925L28.9478 64.5H4.07489Z" fill="#C2C2C2" stroke="black" stroke-width="3"/>
+                                </svg>  
+                            </div>
+                        </div>
+                        <div id="extender">
+                            
+                        </div>
+                        
+                        <!-- end -->
+                        <div class="flexable mid-web" id="end-of-web">
+                            <div class="frontweb">
+                                <svg class="large end" preserveAspectRatio="none" width="70" height="54" viewBox="0 0 70 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M69.0755 31.5H56.7408L31.8392 52.5H5L65.0772 1.5H69.0755" fill="white"/>
+                                    <path d="M69.0755 31.5H56.7408L31.8392 52.5H5L65.0772 1.5H69.0755" stroke="black" stroke-width="3"/>
+                                </svg>
+                                <svg class="small end" style="width: 100%; transform:scale(-1,-1)" preserveAspectRatio="none" width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18H6L25.783 1H44.5L6.23047 37.0001H0" fill="white"/>
+                                    <path d="M0 18H6L25.783 1H44.5L6.23047 37.0001H0" stroke="black" stroke-width="2.5"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Wall -->
+                <div>
+                    <!-- <img style="width: 37.5px; height: 100%;" src="images/almostthere.svg" alt=""> -->
+                    <svg id="nav-end-img" width="75" height="100" viewBox="0 0 75 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.5 50L75 0V100L21.5 50Z" fill="black"/>
+                        <path d="M70.0829 38.883C69.2275 42.4366 68.5672 46.1931 68.5048 49.4957L54.7808 49.3774L45.8558 34.882C55.4405 32.4478 64.8811 29.4414 74.1263 25.8756C74.1143 25.9075 74.1021 25.9399 74.0896 25.9731C73.8117 26.7124 73.4228 27.7746 72.9783 29.0682C72.0897 31.6542 70.9767 35.1702 70.0829 38.883ZM44.839 35.1379L53.6002 49.3672L32.3362 49.1839C32.294 45.4914 31.5182 41.8036 30.0055 38.3611C34.9827 37.4378 39.9295 36.3628 44.839 35.1379ZM28.9936 38.5467C30.5118 41.9191 31.2918 45.544 31.336 49.1753L22.7992 49.1017L18.0228 40.2829C21.6939 39.7857 25.3518 39.2068 28.9936 38.5467ZM16.9621 40.4243L21.6566 49.0918L11.4861 49.0042C11.3413 46.4032 10.0833 43.7605 8.49918 41.4059L11.5947 41.0685C13.3867 40.8731 15.176 40.6584 16.9621 40.4243ZM11.4864 40.0744L7.8436 40.4714C6.24174 38.277 4.39662 36.3427 2.93829 34.9454C2.25242 34.2882 1.65015 33.748 1.1961 33.3533C1.85511 33.2681 2.77319 33.1465 3.87642 32.9922C6.10681 32.6805 9.09575 32.2355 12.2317 31.6904L16.4519 39.4823C14.7993 39.6963 13.144 39.8937 11.4864 40.0744ZM17.5135 39.3425L13.2697 31.5071C16.4174 30.9427 19.6524 30.281 22.3656 29.5543L22.6542 29.8179C25.1653 32.1106 27.1296 34.7599 28.5499 37.6107C24.8864 38.2705 21.2066 38.848 17.5135 39.3425ZM29.5726 37.4242C28.1094 34.4081 26.065 31.6039 23.4385 29.1804C27.8158 27.5074 32.5512 25.3277 37.3155 22.9188L44.2888 34.2443C39.4178 35.453 34.5101 36.5135 29.5726 37.4242ZM45.3063 33.9896L38.2099 22.4641C44.0254 19.4915 49.8619 16.199 55.1257 13.0857L73.8926 24.8939C64.5468 28.5044 55.0002 31.5407 45.3063 33.9896ZM73.8735 23.7005L56.0921 12.5124C61.4452 9.32656 66.153 6.36228 69.5654 4.16555C71.346 3.01924 72.7741 2.08177 73.7574 1.43069C73.7863 1.41156 73.8148 1.39268 73.8429 1.37405C70.916 8.52765 70.9262 16.5529 73.8735 23.7005ZM54.7744 50.3774L68.5047 50.4957C68.566 53.8005 69.2267 57.5603 70.0829 61.117C70.9767 64.8298 72.0897 68.3458 72.9783 70.9318C73.4228 72.2254 73.8117 73.2876 74.0896 74.0269C74.1046 74.0668 74.1193 74.1056 74.1336 74.1436C64.7383 70.6618 55.1868 67.6369 45.5127 65.0775L54.7744 50.3774ZM44.954 65.9642C54.6756 68.5257 64.2734 71.5587 73.7131 75.0542L52.7713 84.9333C48.1487 82.1396 43.1726 79.2744 38.2116 76.6657L44.954 65.9642ZM43.9394 65.6987L37.3225 76.2009C32.5596 73.7254 27.8247 71.5016 23.4468 69.8232C25.8712 67.5869 27.8019 65.0196 29.2362 62.2565C34.1651 63.2849 39.0676 64.4327 43.9394 65.6987ZM28.2172 62.0456C26.7751 64.7526 24.8336 67.2595 22.3934 69.428C19.423 68.3463 16.2591 67.5623 13.2786 66.9939L17.2199 59.9948C20.8988 60.6126 24.5652 61.2964 28.2172 62.0456ZM16.1704 59.8205L12.2386 66.8028C8.95785 66.2222 5.95201 65.8979 3.74316 65.7181C2.75569 65.6377 1.92681 65.5861 1.30302 65.5535C1.74291 65.1686 2.30496 64.6614 2.93829 64.0546C4.39418 62.6597 6.23556 60.7295 7.83555 58.5396L11.8132 59.1358C13.2674 59.3537 14.7199 59.582 16.1704 59.8205ZM8.47851 57.6248C10.0706 55.265 11.3379 52.6138 11.4856 50.0042L21.6487 50.0918L16.6926 58.8931C15.1178 58.6323 13.5407 58.3835 11.9614 58.1468L8.47851 57.6248ZM28.6866 61.1212C25.0519 60.3722 21.4029 59.6879 17.7414 59.0686L22.7908 50.1017L31.3296 50.1753C31.2355 53.9335 30.3532 57.6731 28.6866 61.1212ZM29.6948 61.3307C31.3571 57.8099 32.2363 54.0053 32.3297 50.1839L53.5989 50.3672L44.4987 64.811C39.5937 63.531 34.6577 62.3705 29.6948 61.3307ZM53.7966 85.5554L73.9856 76.0314C70.9358 83.2251 70.8797 91.3359 73.8174 98.5633C73.733 98.5049 73.6453 98.4441 73.5543 98.3812C72.4367 97.6084 70.8175 96.4998 68.8097 95.156C64.9662 92.5836 59.6975 89.1483 53.7966 85.5554Z" fill="white" stroke="black" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div id="root"></div>
+
+
+    <script type="module" src="../../src/navigation.js" async defer></script>
+    <script type="module" src="../../src/ProjectInfoPages/venomGainsJS.jsx" async defer></script>
+    <!-- <script data-plugins="transform-modules-umd" type="text/babel" data-presets="react" data-type="module">
+        function BackgroundImg(){
+            return(
+                <img style={{
+                    position: "fixed",
+                    left: "0px",
+                    top: "0px",
+                    width: "100%",
+                    height: "100%",
+                    zIndex: "-1",
+                    objectFit:"fill",
+                    pointerEvents: "none",
+                    userSelect: "none"
+                }} src={"../images/zoom.png"} alt="background"/>
+            );
+        }
+        function LinkBar(props){
+            return(
+                <a className="disablePointer" href={"https://"+props.link} target="_blank" rel="noopener noreferrer"
+                style={{position:"absolute",width:`${props.width}%`, height:"22px", display:"flex", alignItems:"center", maxWidth:"400px", bottom:"-19px",margin:"auto", left:0, right:0}}>
+                    <div style={{position:"relative",margin:"auto", width:"85%",height:"100%",zIndex:6, overflow:"hidden", display:"flex",alignItems:"center"}}>
+                        <div style={{margin:"auto", display:"flex", alignItems:"center"}}>
+                            <img style={{width:"14px", marginRight:"5px"}} src={"../images/link-icon.png"} alt="link icon"/>
+                            <p id="linkText" style={{margin:0, fontSize:"14px"}}>{props.link}</p>
+                            {/* <p id="linkText" style={{margin:0, fontSize:"14px"}}>Visit</p> */}
+                        </div>
+                        
+                    </div>
+                    <svg style={{position:"absolute",transform:"scaleY(-1)", width:"100%", height:"100%",top:0,left:0}} preserveAspectRatio="none" width="457" height="86" viewBox="0 0 457 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path className="linkBar" d="M2.90963 84L34.3747 2H422.625L454.09 84H2.90963Z" fill="yellow" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                    </svg>
+                </a>
+            );
+        }
+        
+        // Header Stuff //
+        function HeaderMobile(props){
+            const dropShadow = props.fontsize * 0.14 + 'vw';
+
+            const textShadowStyle = `
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000000 0px ${dropShadow} 0px`;
+            return(
+                <div style={{height:75, padding:5, paddingBottom:"24px"}}>
+                        <div style={{position:"relative",width:"80%",height:"100%", backgroundColor:"",margin:"auto",display:"flex", gap:0}}>
+                            <div style={{margin:"auto",position:"relative",zIndex:6,width:"85.5%", backgroundColor:"", alignContent:"center", textAlign:"center",}}>
+                                
+                                <h1 className="title" style={{margin:0, fontSize:`${props.fontsize}vw`, textShadow:textShadowStyle}}>{props.title}</h1>
+                                
+                            </div>
+                            <LinkBar link={props.link} width="85.5"/>
+                            <svg style={{position:"absolute", height:"100%",top:0,left:0, width:"100.1%"}} preserveAspectRatio="none" width="457" height="86" viewBox="0 0 457 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.90963 84L34.3747 2H422.625L454.09 84H2.90963Z" fill="white" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                            </svg>
+                        </div>
+                        
+                </div>
+            );
+        }
+        function Header(props){
+            const dropShadow = props.fontsize * 0.125 + 'vw';
+
+            const textShadowStyle = `
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000 0px 0px 3px, 
+            #000000 0px clamp(0px,${dropShadow},8.25px) 0px`;
+            return(
+                <div style={{height:75, padding:5,paddingBottom:24}}>
+                        <div style={{width:"80%",height:"100%", backgroundColor:"",margin:"auto",display:"flex", gap:0,maxWidth:"calc(1440px * 0.8)"}}>
+                            <svg style={{height:"100%",marginRight:"-5px", zIndex:5}} preserveAspectRatio="none" width="350" height="90" viewBox="0 0 350 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 2H304.5L274 88H2V2Z" fill="white" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                                <path d="M350 2H322L291.5 88H350" fill="white" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                            </svg>
+
+
+                            <div style={{position:"relative",zIndex:6,width:"100%", backgroundColor:"white", alignContent:"center", textAlign:"center",}}>
+
+                                <h1 className="title" style={{margin:0, fontSize:`clamp(10px,${props.fontsize}vw,54px)`, textShadow:textShadowStyle}}>{props.title}</h1>
+                                
+                                <svg style={{position:"absolute", height:"100%",top:0,left:0, width:"100.1%"}} preserveAspectRatio="none" width="319" height="90" viewBox="0 0 319 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2H319M319 88H0" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                                </svg>
+                                
+                                <LinkBar link={props.link} width="100"/>
+                            </div>
+
+
+                            <svg style={{height:"100%",marginLeft:"-5px", zIndex:5}} preserveAspectRatio="none" width="350" height="90" viewBox="0 0 350 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M348 2H45.5L76 88H348V2Z" fill="white" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                                <path d="M0 2H28L58.5 88H0" fill="white" stroke="black" strokeWidth="4" vectorEffect="non-scaling-stroke"/>
+                            </svg>
+                        </div>
+                </div>
+            );
+        }
+        /////////////////////////////////////////////////////////////
+
+        //Comic Components //
+        function TextBox(props){
+            return(
+                    <div className={props.align!==true?"":"align"} style={{boxSizing:"border-box",height:props.height+"%", backgroundColor:props.blank==null?"white":props.blank, textAlign:props.center!==true?"auto":"center", borderColor: "black", borderWidth: 4, borderStyle: "solid",}}>
+                        <p style={{margin:0,padding:2, paddingLeft:5 , fontSize:"clamp(10px, 1vw, 16px)"}}>{props.text}</p>
+                    </div>
+            );
+        }
+        function TextPanel(props){
+            return(
+                    <div style={{boxSizing:"border-box",position:"relative",width:props.width==null?"100%":props.width+"%",height:props.fill!==true?"auto":"100%" ,backgroundColor:"", display:"flex",flexDirection:"column",gap:"5px"}}>
+                        {props.array.map((item, index) => (<TextBox key={index} text={item.text} height={item.height} blank={item.blank} center={item.center} align={item.align}/>))}
+                    </div>
+            );
+        }
+        function ImagePanel (props){
+            return(
+                <div style={{flex:props.flex==null?"auto":props.flex, width:props.width==null?"100%":props.width+"%"}}>
+                    <div style={{boxSizing:"border-box",height:"auto",position:"relative",aspectRatio: props.aspectRatio, backgroundColor:props.backColor==null?"white":props.backColor ,borderColor: "black", borderWidth: 4, borderStyle: "solid"}}>
+                        <img style={{width:"100%",height:"100%",objectFit:"cover",display:"block"}} src={props.image} alt=""/>
+                    </div> 
+                </div>
+            );
+        }
+        function ImageTextPanel (props){
+            return(
+                    <div style={{position:"relative",boxSizing:"border-box",width:props.width==null?"100%":props.width+"%",aspectRatio: props.aspectRatio, backgroundColor:"white",borderColor: "black", borderWidth: 4, borderStyle: "solid"}}>
+                        <p className={props.class} style={{fontSize:"clamp(10px, 1vw, 16px)",position:"absolute", backgroundColor:"white", width:props.textWidth==null?"auto":props.textWidth +"%", margin:0, outlineColor: "black", outlineWidth: 4, outlineStyle: "solid", padding:2}}>{props.text}</p>
+                        <img style={{width:"100%",height:"100%",objectFit:"cover",display:"block"}} src={props.image} alt=""/>
+                    </div> 
+            );
+        }
+        /////////////////////////////////////////////////////////////
+
+        const VenomGains = "../images/VenomGains/VenomGainsLogo.svg";
+
+        const VenomGainsRoutines = "../images/VenomGains/VenomGainsRoutines.svg";
+        const VenomGainsWorkouts = "../images/VenomGains/VenomGainsWorkouts.svg";
+        const VenomGainsWorkoutsEdit = "../images/VenomGains/VenomGainsWorkoutsEdit.svg";
+        const VenomGainsExercises = "../images/VenomGains/VenomGainsExercises.svg";
+        const VenomGainsAddExercise = "../images/VenomGains/VenomGainsAddExercise.svg";
+
+        const CatalogCatagories ="../images/VenomGains/CatalogCatagories.svg";
+        const CatalogExercises ="../images/VenomGains/CatalogExercises.svg";
+        const CatalogDescription ="../images/VenomGains/CatalogDescription.svg";
+
+        const HomePage ="../images/VenomGains/HomePage.svg";
+
+        // Comic //
+        function ComicMobile(){
+            return(
+                <div id="comicSmall" >
+                    
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Overview</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <TextPanel width="25" array={[
+                                {height:100,blank:"#424242"},]} />
+                        <ImagePanel backColor="AntiqueWhite" aspectRatio="1/1" image={VenomGains}/>
+                        <TextPanel width="25" array={[
+                                {height:100,blank:"#424242"},]} />
+                    </div>
+
+                    <TextPanel width="100" fill={true} array={[
+                        {
+                            text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Description</span>, blank:"#4AC936",center:true
+                        },
+                        {
+                            text:<span>Venom Gains is a mobile based Exercise Tracker application is designed to help users seamlessly organize, manage, 
+                                and track their fitness routines. Built using the MERN stack, 
+                                it provides a smooth and user-friendly experience for users at any fitness level. The core features of the app 
+                                include routine creation, workout scheduling, and fitness education, all accessible through a clean and intuitive 
+                                interface.</span>, 
+                            height:100
+                        }
+                    ]} />
+                    <div className="column">
+                        <TextPanel width="100"array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Technologies Used</span>, blank:"#4AC936",center:true
+                            },
+                        ]} />
+                        <div className="row">
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>MongoDB</span>,center:true
+                                },
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>Express.js</span>,center:true
+                                },
+                            ]} />
+                        </div>
+                        <div className="row">
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>React Native</span>,center:true
+                                },
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>Node.js</span>,center:true
+                                },
+                            ]} />
+                        </div>
+                    </div>
+
+
+                    <div></div>
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Features</span>, blank:"#FF4E4E",center:true}]}/>
+                    <div className="column">
+                        <TextPanel width="100" array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Routine Creation</span>, blank:"#6275D8",center:true
+                            },
+                        ]}/>
+                        <div className="row">
+                            <ImagePanel image={VenomGainsRoutines}/>
+                            <ImagePanel image={VenomGainsWorkouts}/>
+                            <ImagePanel image={VenomGainsWorkoutsEdit}/>
+                        </div>
+                        <div className="row">
+                            <TextPanel width="37.5" array={[{height:100,blank:"#424242"},]} />
+                            <ImagePanel image={VenomGainsExercises}/>
+                            <ImagePanel image={VenomGainsAddExercise}/>
+                            <TextPanel width="37.5" array={[{height:100,blank:"#424242"},]} />
+                        </div>
+                        <TextPanel width="100" array={[{text:<span>Users can easily create custom workout routines by assigning a routine name and adding specific workouts from the app’s workout catalog.
+                            Each workout in the routine can be customized with details like the number of sets, reps, and weight to perform for each exercise.
+                            Once the routine is set, users can assign it to specific days of the week, selecting from Monday to Sunday. Routines can also be set for multiple days, giving flexibility in managing workout schedules.
+                            This feature is the core focus of the app, allowing for highly personalized workout routines.</span>},
+                        ]}/>
+                    </div>
+
+                    <div className="column">
+                        <TextPanel width="100" array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Schedule</span>, blank:"#6275D8",center:true
+                            },
+                        ]}/>
+                        <div className="row">
+                            <TextPanel array={[{blank:"#424242", height:100},]}/>
+                            <ImagePanel image={HomePage}/>
+                            <TextPanel array={[{blank:"#424242", height:100},]}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>The schedule tab offers a clear, organized view of all the routines a user has created and assigned to specific days.
+                            It serves as a calendar-like view where users can quickly see what workouts they have scheduled for today, tomorrow, or any upcoming days.</span>}
+                        ]}/>
+                    </div>
+
+                    <div className="column">
+                        <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Catalog</span>, blank:"#6275D8",center:true
+                                },
+                        ]}/>
+                        <div className="row">
+                            <ImagePanel image={CatalogCatagories}/>
+                            <ImagePanel image={CatalogExercises}/>
+                            <ImagePanel image={CatalogDescription}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>The category page provides a comprehensive list of exercises, each with a detailed description and image to guide users on proper form and technique.
+                            This catalog serves as the foundation for creating workout routines, ensuring users have access to a wide range of exercises that suit their fitness goals.</span>},
+                        ]}/>
+                    </div>
+
+                    <TextPanel width="100" array={[
+                        {
+                            text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Account Creation & Security</span>, blank:"#6275D8",center:true
+                        },
+                        {text:<span>Users can easily create an account by providing their email and setting a password.
+                            Upon registration, users receive an email for account verification, ensuring the authenticity of new accounts. 
+                            They must verify their email before fully accessing the app’s features.</span>},
+                    ]}/>
+
+                    <TextPanel width="100" array={[
+                        {
+                            text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Login & Password Management</span>, blank:"#6275D8",center:true
+                        },
+                        {text:<span>Once an account is created, users can securely log in with their credentials.
+                            If users forget their password, they can quickly recover it by using the Forgot Password feature, 
+                            which sends a password reset link to their email, allowing them to regain access to their account seamlessly.
+                            </span>},
+                    ]}/>
+
+
+                    <div></div>
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Team Members</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Parsa Baghaie</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        {text:<span>Lead Front-End Developer <br/> API Developer</span>,height:100,center:true},
+                        ]}/>
+                    </div>
+                    <div className="row">
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Patrick Tumbos</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        {text:<span>Front End Developer</span>,height:100,center:true},
+                        ]}/>
+
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Mike Rojas</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        {text:<span>Front End Developer</span>,height:100,center:true},
+                        ]}/>
+                    </div>
+                    <div className="row">
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Alan Laboy</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        {text:<span>Project Manager <br/> API Developer</span>,height:100,center:true},
+                        ]}/>
+
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Joe Nguyen</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        {text:<span>Database Handler <br/> API Developer</span>,height:100,center:true},
+                        ]}/>
+                    </div>
+                    <div className="row">
+                        <TextPanel width="100" array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Luis Andres Barrera Inga</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        ]}/>
+
+                        <TextPanel width="100" array={[
+                        {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Sophia Georgieva</span>,blank:"#4AC936",center:true, align:true, height:100},
+                        ]}/>
+                    </div>    
+                    <div className="row">
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span>API Developer</span>,height:100,center:true},
+                        ]}/>
+                        <TextPanel width="100" fill={true} array={[
+                        {text:<span>API Developer</span>,height:100,center:true},
+                        ]}/>
+                    </div>    
+
+                </div>
+            );
+        }
+        function ComicTablet(){
+            return(
+                <div id="comicMedium">
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Overview</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <div className="column" style={{flex:"1"}}>
+                        <ImagePanel backColor="AntiqueWhite" aspectRatio="1/1" image={VenomGains}/>
+                        </div>
+
+                        <div className="column" style={{flex:"3.5"}}>
+                            <TextPanel width="100" fill={true} array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Description</span>, blank:"#4AC936",center:true
+                                },
+                                {
+                                    text:<span>Venom Gains is a mobile based Exercise Tracker application is designed to help users seamlessly organize, manage, 
+                                        and track their fitness routines. Built using the MERN stack, 
+                                        it provides a smooth and user-friendly experience for users at any fitness level. The core features of the app 
+                                        include routine creation, workout scheduling, and fitness education, all accessible through a clean and intuitive 
+                                        interface.</span>, 
+                                    height:100
+                                }
+                            ]} />
+                            
+                        </div>
+                    </div>
+                    <div className="column">
+                        <TextPanel width="100"array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Technologies Used</span>, blank:"#4AC936",center:true
+                            },
+                        ]} />
+                        <div className="row">
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>MongoDB</span>,center:true
+                                },
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>Express.js</span>,center:true
+                                },
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>React Native</span>,center:true
+                                },
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span>Node.js</span>,center:true
+                                },
+                            ]} />
+                        </div>
+                    </div>
+
+                    <div></div>
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Features</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <TextPanel width="25" array={[{blank:"#424242", height:100},]}/>
+                        <TextPanel width="100" array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Routine Creation</span>, blank:"#6275D8",center:true
+                            },
+                        ]}/>
+                        <TextPanel width="25" array={[{blank:"#424242", height:100},]}/>
+                    </div>
+                    <div className="column">
+                        <div className="row">
+                            <ImagePanel image={VenomGainsRoutines}/>
+                            <ImagePanel image={VenomGainsWorkouts}/>
+                            <ImagePanel image={VenomGainsWorkoutsEdit}/>
+                            <ImagePanel image={VenomGainsExercises}/>
+                            <ImagePanel image={VenomGainsAddExercise}/>
+                        </div>
+                        <TextPanel width="100" array={[{text:<span>Users can easily create custom workout routines by assigning a routine name and adding specific workouts from the app’s workout catalog.
+                            Each workout in the routine can be customized with details like the number of sets, reps, and weight to perform for each exercise.
+                            Once the routine is set, users can assign it to specific days of the week, selecting from Monday to Sunday. Routines can also be set for multiple days, giving flexibility in managing workout schedules.
+                            This feature is the core focus of the app, allowing for highly personalized workout routines.</span>},]}/>
+                    </div>
+                    
+                    <div className="row">
+                        <div className="column">
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Schedule</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <div className="row">
+                                <TextPanel array={[{blank:"#424242", height:100},]}/>
+                                <ImagePanel image={HomePage}/>
+                                <TextPanel array={[{blank:"#424242", height:100},]}/>
+                            </div>
+                            <TextPanel width="100" fill={true} array={[{text:<span>The schedule tab offers a clear, organized view of all the routines a user has created and assigned to specific days.
+                                It serves as a calendar-like view where users can quickly see what workouts they have scheduled for today, tomorrow, or any upcoming days.</span>, height:100}
+                            ]}/>
+                        </div>
+
+                        <div className="column">
+                            <TextPanel width="100" array={[
+                                    {
+                                        text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Catalog</span>, blank:"#6275D8",center:true
+                                    },
+                            ]}/>
+                            <div className="row">
+                                <ImagePanel image={CatalogCatagories}/>
+                                <ImagePanel image={CatalogExercises}/>
+                                <ImagePanel image={CatalogDescription}/>
+                            </div>
+                            <TextPanel width="100" fill={true} array={[{text:<span>The category page provides a comprehensive list of exercises, each with a detailed description and image to guide users on proper form and technique.
+                                This catalog serves as the foundation for creating workout routines, ensuring users have access to a wide range of exercises that suit their fitness goals.</span>, height:100},
+                            ]}/>
+                        </div>
+                    </div>
+
+
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Account Creation & Security</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>Users can easily create an account by providing their email and setting a password.
+                            Upon registration, users receive an email for account verification, ensuring the authenticity of new accounts. 
+                            They must verify their email before fully accessing the app’s features.</span>, height:100},
+                        ]}/>
+                    </div>
+
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Login & Password Management</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>Once an account is created, users can securely log in with their credentials.
+                            If users forget their password, they can quickly recover it by using the Forgot Password feature, 
+                            which sends a password reset link to their email, allowing them to regain access to their account seamlessly.
+                            </span>, height:100},
+                        ]}/>
+                    </div>
+
+
+                    <div></div>
+
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Team Members</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Patrick Tumbos</span>,blank:"#4AC936",center:true},
+                            {text:<span>Front End Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Parsa Baghaie</span>,blank:"#4AC936",center:true},
+                            {text:<span>Lead Front-End Developer <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Mike Rojas</span>,blank:"#4AC936",center:true},
+                            {text:<span>Front End Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Alan Laboy</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Luis Andres Barrera Inga</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+
+                            
+                        </div>
+                        <div className="row">
+                            <TextPanel width="100" array={[
+                                {text:<span>Project Manager <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span>API Developer</span>,height:100,center:true},
+                            ]}/>
+
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div className="row">
+
+                            <TextPanel width="100"array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Joe Nguyen</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Sophia Georgieva</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            
+                        </div>
+                        <div className="row">
+
+                            <TextPanel width="100" array={[
+                                {text:<span>Database Handler <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span>API Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                    </div>
+
+                    
+                </div>);
+        }
+        function Comic () {
+            return(
+                <div id="comicLarge" >
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Overview</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <div className="column" style={{flex:"1"}}>
+                        <ImagePanel backColor="AntiqueWhite" aspectRatio="1/1" image={VenomGains}/>
+                        </div>
+
+                        <div className="column" style={{flex:"3.5"}}>
+                            <TextPanel width="100" fill={true} array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Description</span>, blank:"#4AC936",center:true
+                                },
+                                {
+                                    text:<span>Venom Gains is a mobile based Exercise Tracker application is designed to help users seamlessly organize, manage, 
+                                        and track their fitness routines. Built using the MERN stack, 
+                                        it provides a smooth and user-friendly experience for users at any fitness level. The core features of the app 
+                                        include routine creation, workout scheduling, and fitness education, all accessible through a clean and intuitive 
+                                        interface.</span>, 
+                                    height:100
+                                }
+                            ]} />
+                            <TextPanel width="100"array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Technologies Used</span>, blank:"#4AC936",center:true
+                                },
+                            ]} />
+                            <div className="row">
+                                <TextPanel width="100"array={[
+                                    {
+                                        text:<span>MongoDB</span>,center:true
+                                    },
+                                ]} />
+                                <TextPanel width="100"array={[
+                                    {
+                                        text:<span>Express.js</span>,center:true
+                                    },
+                                ]} />
+                                <TextPanel width="100"array={[
+                                    {
+                                        text:<span>React Native</span>,center:true
+                                    },
+                                ]} />
+                                <TextPanel width="100"array={[
+                                    {
+                                        text:<span>Node.js</span>,center:true
+                                    },
+                                ]} />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div></div>
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Features</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <TextPanel width="25" array={[{blank:"#424242", height:100},]}/>
+                        <TextPanel width="100" array={[
+                            {
+                                text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Routine Creation</span>, blank:"#6275D8",center:true
+                            },
+                        ]}/>
+                        <TextPanel width="25" array={[{blank:"#424242", height:100},]}/>
+                    </div>
+                    <div className="column">
+                        <div className="row">
+                            <ImagePanel image={VenomGainsRoutines}/>
+                            <ImagePanel image={VenomGainsWorkouts}/>
+                            <ImagePanel image={VenomGainsWorkoutsEdit}/>
+                            <ImagePanel image={VenomGainsExercises}/>
+                            <ImagePanel image={VenomGainsAddExercise}/>
+                        </div>
+                        <TextPanel width="100" array={[{text:<span>Users can easily create custom workout routines by assigning a routine name and adding specific workouts from the app’s workout catalog.
+                            Each workout in the routine can be customized with details like the number of sets, reps, and weight to perform for each exercise.
+                            Once the routine is set, users can assign it to specific days of the week, selecting from Monday to Sunday. Routines can also be set for multiple days, giving flexibility in managing workout schedules.
+                            This feature is the core focus of the app, allowing for highly personalized workout routines.</span>},]}/>
+                    </div>
+                    
+                    <div className="row">
+                        <div className="column">
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Schedule</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <div className="row">
+                                <TextPanel array={[{blank:"#424242", height:100},]}/>
+                                <ImagePanel image={HomePage}/>
+                                <TextPanel array={[{blank:"#424242", height:100},]}/>
+                            </div>
+                            <TextPanel width="100" fill={true} array={[{text:<span>The schedule tab offers a clear, organized view of all the routines a user has created and assigned to specific days.
+                                It serves as a calendar-like view where users can quickly see what workouts they have scheduled for today, tomorrow, or any upcoming days.</span>, height:100}
+                            ]}/>
+                        </div>
+
+                        <div className="column">
+                            <TextPanel width="100" array={[
+                                    {
+                                        text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Catalog</span>, blank:"#6275D8",center:true
+                                    },
+                            ]}/>
+                            <div className="row">
+                                <ImagePanel image={CatalogCatagories}/>
+                                <ImagePanel image={CatalogExercises}/>
+                                <ImagePanel image={CatalogDescription}/>
+                            </div>
+                            <TextPanel width="100" fill={true} array={[{text:<span>The category page provides a comprehensive list of exercises, each with a detailed description and image to guide users on proper form and technique.
+                                This catalog serves as the foundation for creating workout routines, ensuring users have access to a wide range of exercises that suit their fitness goals.</span>, height:100},
+                            ]}/>
+                        </div>
+                    </div>
+
+
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Account Creation & Security</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>Users can easily create an account by providing their email and setting a password.
+                            Upon registration, users receive an email for account verification, ensuring the authenticity of new accounts. 
+                            They must verify their email before fully accessing the app’s features.</span>, height:100},
+                        ]}/>
+                    </div>
+
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                            <TextPanel width="100" array={[
+                                {
+                                    text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Login & Password Management</span>, blank:"#6275D8",center:true
+                                },
+                            ]}/>
+                            <TextPanel width="50" array={[{blank:"#424242", height:100},]}/>
+                        </div>
+                        <TextPanel width="100" fill={true} array={[{text:<span>Once an account is created, users can securely log in with their credentials.
+                            If users forget their password, they can quickly recover it by using the Forgot Password feature, 
+                            which sends a password reset link to their email, allowing them to regain access to their account seamlessly.
+                            </span>, height:100},
+                        ]}/>
+                    </div>
+
+
+                    <div></div>
+
+                    <TextPanel width="100" array={[{text:<span style={{fontSize:"clamp(14px,1.4vw,22px)"}}>Team Members</span>,height:100, blank:"#FF4E4E",center:true}]}/>
+                    <div className="row">
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Patrick Tumbos</span>,blank:"#4AC936",center:true},
+                            {text:<span>Front End Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Parsa Baghaie</span>,blank:"#4AC936",center:true},
+                            {text:<span>Lead Front-End Developer <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                        <div className="column">
+                            <TextPanel width="100" fill={true} array={[
+                            {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Mike Rojas</span>,blank:"#4AC936",center:true},
+                            {text:<span>Front End Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                    </div>    
+                    <div className="column">
+                        <div className="row">
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Alan Laboy</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Luis Andres Barrera Inga</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            <TextPanel width="100"array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Joe Nguyen</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Sophia Georgieva</span>,blank:"#4AC936",center:true, height:100, align:true},
+                            ]}/>
+                            
+                        </div>
+                        <div className="row">
+                            <TextPanel width="100" array={[
+                                {text:<span>Project Manager <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span>API Developer</span>,height:100,center:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span>Database Handler <br/> API Developer</span>,height:100,center:true},
+                            ]}/>
+                            <TextPanel width="100" array={[
+                                {text:<span>API Developer</span>,height:100,center:true},
+                            ]}/>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            );
+        }
+        /////////////////////////////////////////////////////////////
+
+        let change = null;
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        function Render(){
+            const titleName = "Venom Gains";
+            const titleFontSize = 2.7;
+            const linkHref = "github.com/ParsaB22/my-app"
+            if(window.innerWidth >= 1024){
+                if (change !== 1){
+                    change = 1;
+                    root.render(
+                        <div>
+                            <BackgroundImg />
+                            <Header title={titleName} fontsize={titleFontSize} link={linkHref}/>
+                            <Comic/>
+                        </div>
+                    );
+                }
+            }
+            else if(window.innerWidth >= 768 && window.innerWidth < 1024){
+                if (change !== 2){
+                    change = 2;
+                    root.render(
+                        <div>
+                            <BackgroundImg />
+                            <Header title={titleName} fontsize={titleFontSize} link={linkHref}/>
+                            <ComicTablet/>
+                        </div>
+                    );   
+                }
+            }
+            else{
+                if (change !== 3){
+                    change = 3;
+                    root.render(
+                        <div>
+                            <BackgroundImg />
+                            <HeaderMobile title={titleName} fontsize={titleFontSize*1.9} link={linkHref}/>
+                            <ComicMobile/>
+                        </div>
+                    );   
+                }
+            }
+        }
+        Render();
+        window.addEventListener('resize', Render);
+
+    </script> -->
+    </body>
+</html>
+
+<!-- remove highlighting background image and other stuff -->
+<!-- //add empty div to each component and box-sizing:border-box (for more info check out imagePanel -->
+<!-- //figure out method for including textpanel inside a side column panel with images. -->
+<!-- //clamp widths of comic and letters/words -->
+<!-- //fix navbar (clean up code and css) -->
+<!-- clean up component css -->
+
+
+<!-- data-plugins="transform-modules-umd" type="text/babel" data-presets="react" data-type="module" -->
+<!-- 
+<div className="row">
+    <ImagePanel aspectRatio="1440/900" image={MyTestImage} flex="1" />
+    <div className="column">
+        <ImagePanel aspectRatio="1440/900" image={MyTestImage} />
+        <TextPanel array={[{text:"Lorum Ipsum",height:100},{text:"Lorum Ipsum",height:100}]}/>
+        <ImagePanel aspectRatio="1440/900" image={MyTestImage} />
+    </div>
+</div>
+-->
+<!-- , display:"flex", flexDirection:"column", justifyContent:"center" -->

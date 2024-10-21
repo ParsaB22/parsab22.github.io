@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    /* min-height: 100vh; */
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    background-color: #333333;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    /* aspect-ratio: 1 / 1; */
+    border-radius: 20px;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.blue{
+    background-color: blue;
+}

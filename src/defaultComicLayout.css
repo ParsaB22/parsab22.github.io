@@ -1,0 +1,130 @@
+/* All */
+@font-face {
+    font-family: comicfont;
+    src: url(../public/fonts/animeace3bb_ot/animeace3bb_ot/AnimeAce3BB_Regular.otf);
+}
+@font-face {
+    font-family: animefont;
+    src: url(../public/fonts/MightMakesRightBB/MightMakesRightBB.otf);
+}
+a{
+    color:#000;
+    text-decoration: none;
+}
+a:visited, a:active{
+    color:#000;
+}
+
+
+
+/* Link Bar */
+#linkText{
+    font-family: animefont;
+    text-wrap: nowrap;
+}
+.disablePointer{
+    pointer-events: none;
+}
+.linkBar{
+    pointer-events: auto;
+}
+.linkBar:hover{
+    fill:yellowgreen;
+}
+
+
+
+/* Header */
+.title{
+    position: relative;
+    font-family: comicfont;
+    color: white;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+
+
+/* Comic Panel */
+.topRight{
+    right: 0;
+    top: 0;
+}
+.topLeft{
+    left: 0;
+    top:0;
+}
+.bottomLeft{
+    left: 0;
+    bottom:0;
+}
+.bottomRight{
+    right: 0;
+    bottom:0;
+}
+.text{
+    font-family: comicfont;
+    font-size: 12px;
+}
+
+
+/* Comic */
+#comicLarge{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding:20px;
+    width: 80%;
+    margin:auto;
+    max-width:calc(1440px * 0.8);
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    box-shadow: 15px 15px black;
+    margin-bottom: 100px;
+}
+#comicMedium{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding:15px;
+    width: 82.5%;
+    margin:auto;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    gap:calc(10px - (2.5px / 2));
+    box-shadow: 12.5px 12.5px black;
+    margin-bottom: 100px;
+}
+#comicSmall{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding:10px;
+    width: 85%;
+    margin:auto;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    gap:7.5px;
+    box-shadow: 10px 10px black;
+    margin-bottom: 100px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+.column {
+    display:flex;
+    gap:5px;
+    flex-direction:column;
+    flex:1;
+}
+.align{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
