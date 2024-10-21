@@ -1,4 +1,6 @@
 import gsap from "gsap";
+import checkmarksvg from "/images/checkmark.svg"; // Adjust based on your actual image location
+import copysvg from "/images/copy.svg";
 let copyID = document.getElementById("copy");
 copyID.addEventListener('click', copy);
 let isActive = false;
@@ -13,7 +15,7 @@ function copy(){
                 scale:0,
                 duration:0.1,
                 onComplete: function(){
-                    copyImg.src="./images/checkmark.svg";
+                    copyImg.src= checkmarksvg;
                 }
             }
         )
@@ -29,7 +31,7 @@ function copy(){
                 scale:0,
                 duration:0.1,
                 onComplete: function(){
-                    copyImg.src="./images/copy.svg";
+                    copyImg.src= copysvg;
                 }
             }
         )
