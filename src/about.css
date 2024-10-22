@@ -83,18 +83,18 @@ body {
 
 
 
-
-
+#header{
+    color: white;
+    text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px
+                ,#000000 0px clamp(5px,0.58vw,7px) 0px;
+    font-size: clamp(32px, 6vw, 64px);
+}
 h1{
     position: relative;
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    color: white;
-    text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px
-                ,#000000 0px 7.5px 0px;
-    font-size: clamp(32px, 7vw, 64px);
 }
 #out{
     display: flex;

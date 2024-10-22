@@ -41,7 +41,7 @@ body {
 #header{
     color: white;
     text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px
-                ,#000000 0px clamp(1px,0.58vw,7px) 0px;
+                ,#000000 0px clamp(5px,0.58vw,7px) 0px;
     font-size: clamp(32px, 6vw, 64px);
 }
 
