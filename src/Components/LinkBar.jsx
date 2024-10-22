@@ -8,7 +8,7 @@ function LinkBar(props){
             style={{position:"absolute",width:`${props.width}%`, height:"22px", display:"flex", alignItems:"center", maxWidth:"400px", bottom:"-19px",margin:"auto", left:0, right:0}}>
                 <div style={{position:"relative",margin:"auto", width:"85%",height:"100%",zIndex:6, overflow:"hidden", display:"flex",alignItems:"center"}}>
                     <div style={{margin:"auto", display:"flex", alignItems:"center"}}>
-                        <img style={{width:"14px", marginRight:"5px"}} src={"../images/link-icon.png"} alt="link icon"/>
+                        <img style={{width:"14px", marginRight:"5px"}} src={"../../images/link-icon.png"} alt="link icon"/>
                         <p id="linkText" style={{margin:0, fontSize:"14px"}}>{props.link}</p>
                         {/* <p id="linkText" style={{margin:0, fontSize:"14px"}}>Visit</p> */}
                     </div>
