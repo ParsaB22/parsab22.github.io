@@ -158,7 +158,7 @@ mid.addEventListener('mouseenter', function(){
                 const l = getRelativePositionInRotatedElement(mouseX, mouseY, rotated, 2);
                 const x = l.x - vmin/2;
                 const y = l.y - vmin/2;
-                console.log("vmin= "+splitMaskSize);
+                // console.log("vmin= "+splitMaskSize);
                 
                 // Update the position
                 container.style.maskPosition = `${x}px `+ `${y}px`;  
