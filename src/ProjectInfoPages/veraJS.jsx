@@ -7,7 +7,7 @@ import ImageTextPanel from "../Components/ImageTextPanel";
 
 const VERAUnity = "../../images/VERA/VERAUnity.svg";
 
-const VERAControls = ".././images/VERA/controls.png";
+const VERAControls = "../../images/VERA/controls.png";
 
 const LookMenu = "../../images/VERA/LookMenu.png";
 const MoveMenu = "../../images/VERA/MoveMenu.png";

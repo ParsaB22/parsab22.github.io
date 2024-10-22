@@ -43,8 +43,6 @@ p{
     -webkit-mask-image: url(../public/images/mouseSpiderIcon.svg);
     mask-image: url(../public/images/mouseSpiderIcon.svg);
     mask-repeat: no-repeat;
-    /* mask-size: 50px 50px; does nothing size is manipulated in javascript */
-    /* -webkit-mask-size: 50px 50px; */
     z-index: 1;
 }
 #active{
@@ -64,7 +62,7 @@ body {
 }
 
 #back > * {
-    border: #000, 4px, solid;
+    border: #000000, 4px, solid;
 }
 
 .firstLet{
@@ -72,14 +70,4 @@ body {
     color: red;
     text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px;
     margin-right: 2px;
-}
-
-@media (min-width: 320px) {
-
-}
-@media (min-width: 768px) {
-
-}
-@media (min-width: 1025px) {
-
 }
