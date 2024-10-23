@@ -60,8 +60,8 @@ function fillNav(){
 
     if(y.clientWidth < x.clientWidth){
         //add eelement
-        // addWeb();
-        // fillNav();
+        addWeb();
+        fillNav();
         // if(one==1){
         //     addWeb();
         //     one=0
