@@ -24,6 +24,9 @@ function setListener(){
 
 let one = 1;
 fillNav();
+window.onload = () => {
+    fillNav();
+};
 window.addEventListener("resize", fillNav);
 
 
@@ -37,9 +40,8 @@ function fillNav(){
 
     for (let index = 0; index < back.length; index++) {
         let b = back[index];
-        
-        b.style.marginLeft = back[1].clientWidth * -0.27 + "px";
-        let ml = mid[0].clientWidth * -0.1656 + "px";
+        b.style.marginLeft = back[1].clientWidth * -0.268 + "px";
+        let ml = mid[0].clientWidth * -0.163 + "px";
         if(index>0){
             let m = mid[index-1];
             m.style.marginLeft = ml;

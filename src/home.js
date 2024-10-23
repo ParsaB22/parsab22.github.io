@@ -1,57 +1,6 @@
 
 import gsap from "gsap";
 
-// const container = document.getElementById('mask-container');
-// const follower = document.getElementById('mask-container');
-// const welcomeTimeline = gsap.timeline();
-// welcomeTimeline.to("#welcomeimg",
-//     {
-//         delay: 1,
-//         scale:0,
-//         duration:1,
-//         ease: "back.in"
-//     }
-// )
-// .to("#welcome",
-//     {
-//         top: "100%",
-//         height: 0,
-//         // scale: 0,
-//         // delay:0.1,
-//         duration: 1,
-
-//     }
-// )
-// .set("#welcome",
-//     {
-//         top: 0,
-//         // height: 0,
-//         // scale: 0,
-//         // delay:0.1,
-//         // duration: 1,
-//     }
-// )
-// .set("#welcomeimg",
-//     {
-
-//         // delay: 1,
-//         scale:1,
-//         // duration:1,
-//         // ease: "back.in"
-//     }
-// )
-// .to("#welcome",
-//     {
-//         // top: "100%",
-//         height: "100%",
-//         // scale: 0,
-//         // delay:0.1,
-//         duration: 1,
-
-//     }
-// )
-
-
 
 let mouseX=null;
 let mouseY=null;
@@ -228,17 +177,4 @@ mid.addEventListener("click", function(e){
         );
     }
 });
-//make it have animationss for showing up and leaving
-//make where on click it changes to the other layout
-
-    //make into spider instead of brock [NEED TO MAKE A SPIDER] [Done]
-    //make everything you can into tailwind [DONE]
-    //make logo and fix sizing probably can be fixed with changing to svg [DONE]
-    //and maybe look into how to take the max of vw or vh and implement maybe for circle/spider sizing or other things [DONE]
-    //Fix mask being centered [DONE]
-
-
-
-    //Fix some responsive resizing later
-    //Colors and maybe make mouseSpiderIcon legs shorter
 
