@@ -28,7 +28,9 @@ img{
 p{
     transition: 250ms font-size;
 }
-
+.anime{
+    transition: 250ms all;
+}
 /* ---------------- */
 
 
