@@ -2,7 +2,9 @@
 //
 //
 circleImgRepo();//initial call
-
+window.onload = () => {
+    circleImgRepo();
+};
 window.addEventListener("resize", circleImgRepo);//updated when resizing
 
 // POSITISIONS IMAGE CIRCLE BASED OFF OF THE CURRENT WIDTH WHICH IS BASED OFF OF VIEWPORT WIDTH
