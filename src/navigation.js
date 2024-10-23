@@ -60,11 +60,11 @@ function fillNav(){
 
     if(y.clientWidth < x.clientWidth){
         //add eelement
-        addWeb();
-        fillNav();
+        // addWeb();
+        // fillNav();
         // if(one==1){
         //     addWeb();
-        //     yeh=0
+        //     one=0
         //     fillNav();
         // }
     }
@@ -76,8 +76,8 @@ function fillNav(){
         //534.359 is the inner at full so comment out the addWeb() and fillnav() in the if statement above
         //173.11 is the extender size at full and only one so comment out addWeb() and fillnav() and uncomment the if statement under it to only add one web
         if(window.innerWidth>=576){
-            if(x.clientWidth>=534.359){
-                if(z.length!=0 && z.length > Math.ceil((x.clientWidth - 534.359)/173.11)){
+            if(x.clientWidth>=543.422){
+                if(z.length!=0 && z.length > Math.ceil((x.clientWidth - 543.422)/176.250)){
                     deleteWeb();
                     fillNav();
                 }
@@ -90,8 +90,8 @@ function fillNav(){
             }
         }
         else{
-            if(x.clientWidth>=263.156){
-                if(z.length!=0 && z.length > Math.ceil((x.clientWidth - 263.156)/87.719)){
+            if(x.clientWidth>=363.672){
+                if(z.length!=0 && z.length > Math.ceil((x.clientWidth - 363.672)/109.016)){
                     deleteWeb();
                     fillNav();
                 }
