@@ -23,7 +23,7 @@ nav{
     position: fixed;
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 75px;
     top: 0px;
     left: 0px;
     z-index: 100;
@@ -86,7 +86,7 @@ body{
     transition: 250ms all;
 }
 #homeimg{
-    width: 51.5px;
+    width: 75px;
     height: 100%;
     aspect-ratio: 1 / 1;
     pointer-events: auto;
@@ -98,8 +98,8 @@ body{
     color: #4ac936;
     font-family: homefont;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px;
-    font-size: 16px;
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 24px;
     margin: 0;
     padding: 0;
     line-height: normal;
@@ -137,8 +137,8 @@ body{
     height:100%;
 }
 #inner{
-    height: 75%;
-    margin-top: 6.25px;
+    height: 66%;
+    margin-top: 12.375px;
 }
 .backweb{
     position: relative;
@@ -163,7 +163,7 @@ body{
     height: calc(33.33% - 4px);
     border-radius: 9px;
     /* background-color: #ffffff; */
-    font-size: 9px;
+    font-size: 10px;
     z-index: -1;
     text-align: center;
     justify-content: center;
@@ -180,13 +180,13 @@ body{
 }
 /* this */
 .small{
-    height: 69.7%;
+    height: 77%;
 }
 
 /* this */
 
 #nav-end-img{
-    width: 37.5px;
+    width: 56.25px;
     height: 100%;
 }
 .large{
