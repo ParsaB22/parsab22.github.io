@@ -163,7 +163,7 @@ body{
     height: calc(33.33% - 4px);
     border-radius: 9px;
     /* background-color: #ffffff; */
-    font-size: 10px;
+    font-size: clamp(8px, 2.5vw, 10px);
     z-index: -1;
     text-align: center;
     justify-content: center;
@@ -186,7 +186,7 @@ body{
 /* this */
 
 #nav-end-img{
-    width: 56.25px;
+    width: 37.5px;
     height: 100%;
 }
 .large{
