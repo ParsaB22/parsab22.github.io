@@ -39,7 +39,9 @@ p{
 .text-xl{
     font-family: boldcomicfont;
 }
-
+.text-lg{
+    font-family: boldcomicfont;
+}
 /* ======= MASKING ======= */
 #mask-container{
     -webkit-mask-image: url(../public/images/mouseSpiderIcon.svg);
@@ -68,8 +70,9 @@ body {
 }
 
 .firstLet{
-    font-size: 30px;
+    /* font-size: 30px; */
     /* 28px if changes */
+    line-height: normal;
     color: red;
     text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px, #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px;
     margin-right: 2px;
