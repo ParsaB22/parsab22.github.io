@@ -178,3 +178,24 @@ mid.addEventListener("click", function(e){
     }
 });
 
+const projects = document.querySelectorAll(".twoproject");
+const abouts = document.querySelectorAll(".twoabout");
+
+function changeToGreen(elements){
+    elements.forEach(el => el.style.backgroundColor = '#4ac936');
+}
+function changeBack(elements){
+    elements.forEach(el => el.style.backgroundColor = '');
+}
+projects.forEach(project => {
+        project.addEventListener('mouseenter', () => changeToGreen(projects));
+        
+        project.addEventListener('mouseleave', () => changeBack(projects));
+    }
+);
+abouts.forEach(about => {
+        about.addEventListener('mouseenter', () => changeToGreen(abouts));
+        
+        about.addEventListener('mouseleave', () => changeBack(abouts));
+    }
+);
