@@ -217,7 +217,7 @@ function ComicTablet(){
                                 text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Description</span>, blank:"#4AC936",center:true
                             },
                             {
-                                text:<span><em><strong style={{color:"#4AC936"}}>Venom Gains</strong></em> is a <u>mobile based</u> <strong>Exercise Tracker application</strong> is designed to help users seamlessly <strong><em>organize</em></strong>, <strong><em>manage</em></strong>, and <strong><em>track </em></strong>their fitness routines. Built using the <u><strong>MERN stack</strong></u>, it provides a <em>smooth </em>and <em>user-friendly</em> experience for users at any fitness level. The core features of the app include <strong>routine creation</strong>, <strong>workout scheduling</strong>, and <strong>fitness education</strong>, all accessible through a clean and intuitive interface</span>, 
+                                text:<span><em><strong style={{color:"#4AC936"}}>Venom Gains</strong></em> is a <u>mobile based</u> <strong>Exercise Tracker application</strong> designed to help users seamlessly <strong><em>organize</em></strong>, <strong><em>manage</em></strong>, and <strong><em>track </em></strong>their fitness routines. Built using the <u><strong>MERN stack</strong></u>, it provides a <em>smooth </em>and <em>user-friendly</em> experience for users at any fitness level. The core features of the app include <strong>routine creation</strong>, <strong>workout scheduling</strong>, and <strong>fitness education</strong>, all accessible through a clean and intuitive interface</span>, 
                                 height:100
                             }
                         ]} />
@@ -424,7 +424,7 @@ function Comic () {
                                 text:<span style={{fontSize:"clamp(12px,1.2vw,18px)"}}>Description</span>, blank:"#4AC936",center:true
                             },
                             {
-                                text:<span><em><strong style={{color:"#4AC936"}}>Venom Gains</strong></em> is a <u>mobile based</u> <strong>Exercise Tracker application</strong> is designed to help users seamlessly <strong><em>organize</em></strong>, <strong><em>manage</em></strong>, and <strong><em>track </em></strong>their fitness routines. Built using the <u><strong>MERN stack</strong></u>, it provides a <em>smooth </em>and <em>user-friendly</em> experience for users at any fitness level. The core features of the app include <strong>routine creation</strong>, <strong>workout scheduling</strong>, and <strong>fitness education</strong>, all accessible through a clean and intuitive interface</span>, 
+                                text:<span><em><strong style={{color:"#4AC936"}}>Venom Gains</strong></em> is a <u>mobile based</u> <strong>Exercise Tracker application</strong> designed to help users seamlessly <strong><em>organize</em></strong>, <strong><em>manage</em></strong>, and <strong><em>track </em></strong>their fitness routines. Built using the <u><strong>MERN stack</strong></u>, it provides a <em>smooth </em>and <em>user-friendly</em> experience for users at any fitness level. The core features of the app include <strong>routine creation</strong>, <strong>workout scheduling</strong>, and <strong>fitness education</strong>, all accessible through a clean and intuitive interface</span>, 
                                 height:100
                             }
                         ]} />
